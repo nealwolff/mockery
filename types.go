@@ -25,7 +25,7 @@ type TestType struct {
 }
 
 //AssignType assigns the data
-func (t *TestType) AssignType(data string) {
+func (t *TestType) AssignData(data string) {
 	t.theData = TestImplementation.TestFunc(data)
 }
 

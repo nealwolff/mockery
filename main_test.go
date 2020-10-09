@@ -19,7 +19,7 @@ func TestTestInterfaceWithMock(t *testing.T) {
 	//now create an object that uses a function that calls the test implementation
 	theType := TestType{}
 
-	theType.AssignType(passString)
+	theType.AssignData(passString)
 
 	if theType.GetData() != expectedValue {
 		t.Fatal("invalid data obtained, got: " + theType.GetData())
